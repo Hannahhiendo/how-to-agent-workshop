@@ -6,9 +6,9 @@
 * [🔧 Environment Setup](environment-setup.md)
 
 **🤖 Workshop Content**
-* [📊 Understanding Report Generation Agents](report-generation-intro.md)
-* [🛠️ Building Your Creative Agent](creative-agent-development.md)
-* [🔬 Hands-on Notebook Exercises](hands-on-exercises.md)
+* [📊 Understanding Our Report Generation Agent](report-generation-intro.md)
+* [🛠️ Building Your Own Creative Agent](creative-agent-development.md)
+
 
 **📁 From Notebook to Launchable**
 * [🔗 Setting Up Your Public GitHub Repository](github-repository-setup.md)

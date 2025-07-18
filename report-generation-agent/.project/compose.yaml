@@ -32,10 +32,10 @@ services:
             - --NotebookApp.default_url=/lab
             - --allow-root
         environment:
-            - RUNTIME_VAR=5
-            - SHELL=/bin/bash
             - NGC_API_KEY=${NGC_API_KEY}
             - COMPOSE_PROJECT_NAME=${COMPOSE_PROJECT_NAME:-devx}
+            - RUNTIME_VAR=5
+            - SHELL=/bin/bash
         healthcheck:
             interval: 30s
             retries: 3
@@ -44,7 +44,7 @@ services:
                 - CMD-SHELL
                 - curl -f http://localhost:8888/api || exit 1
             timeout: 10s
-        image: devx:main
+        image: ghcr.io/hannahhiendo/how-to-agent-workshop/devx:main
         ipc: host
         networks:
             - devx

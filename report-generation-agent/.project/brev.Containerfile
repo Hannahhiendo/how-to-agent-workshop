@@ -41,7 +41,8 @@ USER root
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
     curl \
     jq \
-    vim
+    vim \
+    git
 
 USER $NVWB_USERNAME
 
